@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12b0df8a7bff9c43a8fed9425a00bd0, type: 3}
+  m_Name: UISettings
+  m_EditorClassIdentifier: 
+  language: kr
+  bar_green: {fileID: 21300000, guid: 38c0e39a622b8374dad9313fe7c4fe23, type: 3}
+  bar_red: {fileID: 21300000, guid: 7297b9d633f26ea45b0b9818e51a4066, type: 3}
+  bar_yellow: {fileID: 21300000, guid: 4911a6a2736d6954da10912bbe58b3bb, type: 3}
+  joystickSettings:
+  - joystickName: Move
+    vector2: {x: 5, y: 10}
+    size: 1.5
+  - joystickName: Attack
+    vector2: {x: 5, y: 10}
+    size: 1.5
+  - joystickName: Skill
+    vector2: {x: 25, y: 15}
+    size: 1.5
+  - joystickName: Skill1
+    vector2: {x: 17, y: 42}
+    size: 1.3
+  - joystickName: Skill2
+    vector2: {x: 4, y: 42}
+    size: 1.3

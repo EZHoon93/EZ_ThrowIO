@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e892eee72ba3004499ab2ac03c2bfac9, type: 3}
+  m_Name: PjC_P01
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2385817045213794790, guid: 5b7038e5b31da564f80c8d0538b3cd7b, type: 3}
+  allowCount: 6
+  addCount: 2
+  projectileData: {fileID: 11400000, guid: 0746ce2f8a6982b48a949e65aeca302f, type: 2}
+  sprite: {fileID: 21300000, guid: 14f1794c2d01b214681f6e497a0f3a15, type: 3}
+  needLevel: 5
+  excContent: 
+  UIName: 
+  handPosion: {x: 0.068, y: -0.1, z: 0}
+  handRotation: {x: -60, y: 70, z: 45}

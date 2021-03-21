@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461e45649fd87914788771ba73259baa, type: 3}
+  m_Name: DataEtc
+  m_EditorClassIdentifier: 
+  addMaxHealthRatio: 0.3
+  addMaxEnergyRatio: 0
+  addMoveSpeedRatio: 0
+  addDamageRatio: 0
+  addRangeRatio: 0
+  addProjectileSpeedRatio: 0
+  abilityMaxPoint: 0
+  lightingStuneTime: 0
+  posionTime: 0
+  slowTime: 0
+  slowRatio: -0.5
+  posionTickTime: 1
+  fireTickTime: 1
+  posionTickDamage: 20
+  fireTickDamage: 30
+  probabilityStun: 0.1

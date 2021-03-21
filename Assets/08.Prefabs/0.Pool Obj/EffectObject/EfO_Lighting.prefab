@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2790937095377689188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2686021040133172024}
+  m_Layer: 0
+  m_Name: Sclaer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2686021040133172024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2790937095377689188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 855128944977269179}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5704146806001742071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 855128944977269179}
+  - component: {fileID: 1404464853536729954}
+  m_Layer: 0
+  m_Name: EfO_Lighting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &855128944977269179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704146806001742071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2686021040133172024}
+  - {fileID: 7732049165753207293}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404464853536729954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704146806001742071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0d09fa82d897544829ac4ab12e9aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolPanel: {fileID: 0}
+  effectContainer: {fileID: 0}
+  effectParticle:
+  - {fileID: 7629888113458400431}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!1001 &6598001413656882768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 855128944977269179}
+    m_Modifications:
+    - target: {fileID: 3516873006191277737, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_Name
+      value: LightningNovaBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516873006191277737, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634969513778406143, guid: fd7479ae42c89b8489cd245efd958097,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd7479ae42c89b8489cd245efd958097, type: 3}
+--- !u!4 &7732049165753207293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3520986512459589549, guid: fd7479ae42c89b8489cd245efd958097,
+    type: 3}
+  m_PrefabInstance: {fileID: 6598001413656882768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7629888113458400431 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3634969513778406143, guid: fd7479ae42c89b8489cd245efd958097,
+    type: 3}
+  m_PrefabInstance: {fileID: 6598001413656882768}
+  m_PrefabAsset: {fileID: 0}
